@@ -16,6 +16,13 @@ require_once ABSPATH . 'wp-admin/includes/class-wp-media-list-table.php';
  * List table customization
  */
 class Extended_Media_List_Table extends \WP_Media_List_Table {
+ 	/**
+     * Whether the list table is in trash view mode.
+     *
+     * @var bool
+     */
+    protected $is_trash = false;
+	
 	/**
 	 * Add the export bulk action
 	 *
