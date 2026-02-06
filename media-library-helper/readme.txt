@@ -1,9 +1,9 @@
-===  Bulk edit image alt tag, caption & description  - WordPress Media Library Helper by Codexin  ===
+===  Media Library Helper — Bulk edit image ALT, caption & description  ===
 Contributors: cxntech, cxnmedia
 Tags: Alt tag, Image caption, Bulk edit, Media Library, SEO
 Requires at least: 4.8
-Stable tag: 1.3.1
-Tested up to: 6.7
+Stable tag: 1.3.2
+Tested up to: 6.8
 Requires PHP: 5.6.39
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
@@ -87,6 +87,11 @@ This usually happens when the image titles, ALT tag, caption or descriptions hav
 No, modifying the image titles using this plugin will not update the image URLs or slugs. Only the image titles will be updated, while the URLs or slugs will remain unchanged.
 
 == Changelog ==
+
+= 1.3.2 =
+* Updated plugin name. Removed the word "WordPress"
+* Compatibility issues test with WordPress version 6.8 
+* Updated readme.txt
 
 = 1.3.1 =
 * Addressed the deprecated warning
